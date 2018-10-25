@@ -35,16 +35,13 @@ L tab **Appointments**:
 
 > Pour tester la relation N-N   
 
-<hr/>
-* Aller dans la console rails
-```
-    rails console
-```
-* Creer une rendez-vous
-```
-    Appointment.create(doctor_id: #saisirunchiffre, patient_id: #saisirunchiffre)
-```
-* Verifier que le RDV a bien été pris
-```
-    Patient.find(#saisir_le_chiffre_saisi_a_la_creation_pour_patient).appointments
-```
+<hr/>  
+
+* Aller dans la console rails  
+  ```  rails console  ```
+
+* Creer une rendez-vous  
+  ``` Appointment.create(doctor_id: #saisirunchiffre, patient_id: #saisirunchiffre) ```  
+
+* Verifier que le RDV a bien été pris  
+  ```  Patient.find(#saisir_le_chiffre_saisi_a_la_creation_pour_patient).appointments  ```
